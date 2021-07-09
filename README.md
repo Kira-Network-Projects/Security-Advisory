@@ -7,8 +7,7 @@ This repoistory contains general information about our security and what you can
 
 Our network does store your ip address but it is not the ip that you would normally think. A normal IP in our collection would look something like this:
 
-`ODVkMWQ5M2MxOWNiMjljMDk4YzdjZWJkNTFhMmFhNWM1YmY2MGU1MDRiMzZiZDAzZmU1NzcxNWI3
-MWFmNzViMw==`
+`ODVkMWQ5M2MxOWNiMjljMDk4YzdjZWJkNTFhMmFhNWM1YmY2MGU1MDRiMzZiZDAzZmU1NzcxNWI3MWFmNzViMw==`
 
 That ip uses two different methods to "obfuscate" the ip address which is we first use a method to hex the string and make it just numbers and letters then we encode the hexed ip address to make an output that looks something like that
 
@@ -18,17 +17,4 @@ We do allow the use of VPNs because wee do want people to feel safe on our netwo
 
 They look something like this:
 
-`Document document = new Document("uuid", String.valueOf(uuid))
-                .append("username", profile.getUsername())
-                .append("firstJoined", profile.getFirstJoined())
-                .append("lastSeen", profile.getLastSeen())
-                .append("staffChat", profile.isStaffChat())
-                .append("activePrefix", (profile.getActivePrefix() == null ? null : profile.getActivePrefix().getId()))
-                .append("activePrefix", (profile.getActivePrefix() == null ? null : profile.getActivePrefix().getId()))
-                .append("ip", CipherHelper.base64encode(EncryptionHelper.toHexString(profile.getIp())))
-                .append("currentServer", profile.getCurrentServer())
-                .append("disguisedRank", profile.getDisguisedRank())
-                .append("playerperms", profile.getPlayerperms())
-                .append("disguised", profile.isDisguised())
-                .append("friends", ListTransformUtils.UUIDtoStringList(profile.getFriends()));
-        ProjectXShared.getInstance().getMongoManager().getProfiles().insertOne(document);`
+![a898bb3120fc06aec203a0298b1a9f40](https://user-images.githubusercontent.com/67809373/125136658-1d02d680-e0c0-11eb-8466-479c4d683041.png)
