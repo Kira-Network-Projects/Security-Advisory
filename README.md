@@ -18,3 +18,14 @@ We do allow the use of VPNs because we do want people to feel safe on our networ
 They look something like this:
 
 ![a898bb3120fc06aec203a0298b1a9f40](https://user-images.githubusercontent.com/67809373/125136658-1d02d680-e0c0-11eb-8466-479c4d683041.png)
+
+## Proxies and Geo location
+
+On our network we do not store your geo location but we do check your proxy status using geolocation. This information is only available in our profile debugging command which looks something like this:
+
+![8f8b598d3904a5107099158fe29de03a](https://user-images.githubusercontent.com/67809373/125180832-a941f600-e1b3-11eb-8266-9d35d3884619.png)
+
+That is everything in the command and there is nothing else that will be displayed. We do not show your isp / country / city / any personal information in that command
+
+
+
